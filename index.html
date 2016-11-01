@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Changa+One|Paytone+One|Lato|Raleway|Teko:700|Yantramanav:900" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/app.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function() {
+			if ($('.jumbo-header').is(":visible")) {
+				$('.jumbo-header').animate({
+					height : "450px"
+				}, 'slow');
+				$('.jumbo-header h1').animate({
+					"padding-top" : "160px"
+				}, 'slow').text('Creative Gains');
+				$('.shape').animate({
+					top: '558px'
+				}, 'slow');
+			}
+		});
+	</script>
+    <meta charset="UTF-8">
+    <title>Creative Gains</title>
+</head>
+<body id="portfolio">
+    
+    <div class="container">
+        
+        <header class="main-header">
+            <div class="main-logo">
+                <img src="img/cg_logo.svg" alt="Creative Gains logo" />
+            </div>
+            <div class="main-nav">
+                <ul class="nav">
+                    <li class="about-link"><a href="index.html">About</a></li>
+                    <li class="portfolio-link"><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </header>
+            <div class="jumbo-header">
+                <h1>Creative Gains</h1>
+                <div class='shape'></div>
+            </div>
+            
+            <div class="content">
+                <div class="mobile-first">
+                    <h2>Mobile First</h2>
+                    <div class="secondary-content">
+                        <img class="iphone-scroll" src="img/iphone-icon.svg" alt="Iphone Icon" />
+						<p>According to SimilarWeb's State of Mobile Web US 2015 report, roughly 56 percent of consumer traffic to the leading US websites is now from mobile devices. With this increase must also come the adaptation of the Mobile First strategy. The Mobile First strategy looks to speed up design. Done so by using the mobile version of your project as the foundation. Adding features and interactivity depending on the user's environement.</p>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <h2>Responsive</h2>
+                    <div class="secondary-content">
+                        <img class="narrow-phone" src="img/narrow-phone.svg" alt="Iphone Icon" />
+						<p>Responsive Web design is the approach of efficiently meeting the needs of a mobile-user's behavior and enviroment, without discrimination of the device or user preference. This practices helps to eliminate the process of having to start over as new tech arrives on the market.</p>
+                    </div>
+                </div>
+                <div class="interactive">
+                    <h2>Interactive</h2>
+                    <div class="secondary-content">
+                        <img class="interactive-img" src="img/desktop.svg" alt="Simplicity Icon" />
+						<p>The art of subtly engaging interactivity to attract users to your application. By enabling your page to stand out, you too will do the same.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <footer class="main-footer">
+		<ul>
+			<li>@2016 Kyle Sullivan</li>
+			<li>kyle@creativegains.co</li>
+		</ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{	
+	"Portfolio" : [
+		{
+			"title" : "Arkansas Trails",
+			"img" : "img/portfolio/arkansas-trails.png",
+			"link" : "http://arkansastrails.creativegains.co",
+			"description" : "Web Application that pulls up Outdoor Activities near your area in Arkansas.",
+			"work" : "Developed a web application to search for Outdoor Activities in Arkansas near your location. This application uses three seperate RESTful APIs. TrailsAPI, GoogleMaps, and GettyImages.",
+			"skills" : ["Angular 2, Bootstrap, CSS, HTML"],
+			"git"	: ""
+		},
+		{
+			"title" : "Photography Portfolio for Noah West",
+			"img" : "img/portfolio/noahwest.png",
+			"link" : "http://creativegains.co/noahwest/",
+			"description" : "Portfolio site built for a budding Photographer",
+			"work"  :   "A fun little side project that him and I have been working on for the last few months. We aimed to create a clean and awesome looking site through the use of photos and a bit of animation.",
+			"skills" : ["AJAX", "CSS", "HTML, Illustrator, Javascript, jQuery, php, Photoshop"],
+			"git"	: ""
+		},
+		{
+			"title" : "GitHub Search Application",
+			"img" : "img/portfolio/github-search.png",
+			"link" : "http://creativegains.co/githubsearch/",
+			"description" : "Simple search app for GitHub users",
+			"work"  :   "Practicing Angular 2 and Bootstrap",
+			"skills" : ["Angular 2, Bootstrap"],
+			"git"	: "https://github.com/ksullivan96/GitHub-Search-Application"
+		},
+		{
+			"title" : "Gearhead Gives",
+			"img" : "img/portfolio/gearhead-gives.png",
+			"description" : "A website done for Gearhead",
+			"link" : "http://creativegains.co/gearheadgives/",
+			"work"  :   "I was given a paper drawing of a design idea. It was then up to me to develop and design the rest of the template",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery", "Photoshop"],
+			"git"	: "https://github.com/ksullivan96/gearheadgives"
+		},
+		{
+			"title" : "Movie database Application",
+			"img" : "img/portfolio/movieapp.png",
+			"link" : "http://creativegains.co/Movie%20Application/",
+			"description" : "Movie Application that allows the user to search using the OMDB API",
+			"work"  :   "Used AJAX/jQuery to practice REST APIs",
+			"skills" : ["AJAX", "CSS", "HTML", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/Movie-Application"
+		},
+		{
+			"title" : "Image Slider with Gradient Overlay",
+			"img" : "img/portfolio/image-slider.png",
+			"link" : "http://creativegains.co/image_slider/",
+			"description" : "Developed an image slider that allows a gradient overlay",
+			"work"  :   "Swaps the background images allowing the use of a transparent overlay with css.",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/Image-Slider"
+		},
+		{
+			"title" : "Calculator Application",
+			"img" : "img/portfolio/calculator-app.png",
+			"link" : "http://creativegains.co/calculator/",
+			"description" : "A fun little calculator application I made",
+			"work"  :   "",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/Calculator-App"
+		},
+		{
+			"title" : "Video Page",
+			"img" : "img/portfolio/videoplayer.png",
+			"link" : "http://creativegains.co/video_player/",
+			"description" : "Responsive Video Player",
+			"work"  :   "Used the MediaElement.js jquery plugin to make a responsive Vlog page.",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/Interactive-and-Responsive-Video-Player"
+		},
+		{
+			"title" : "Application Dashboard",
+			"img" : "img/portfolio/dashboard.png",
+			"description" : "A mockup of the dashboard of an application.",
+			"link" : "http://creativegains.co/application_dashboard/",
+			"work"  :   "",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/Mock-Dashboard-Application"
+		},
+		{
+			"title" : "Lightbox Gallery",
+			"img" : "img/portfolio/imagegallery.png",
+			"link" : "http://creativegains.co/photo_gallery/",
+			"description" : "A simple lightbox Gallery.",
+			"work"  :   "Now that I have become familiar with better Javascript practices I intend to rework this project.",
+			"skills" : ["CSS", "HTML", "Javascript", "jQuery"],
+			"git"	: "https://github.com/ksullivan96/photo_gallery"
+		},
+		{
+			"title" : "Registration Form",
+			"img" : "img/portfolio/registration.png",
+			"link" : "http://creativegains.co/registration_form/",
+			"description" : "A registration form for a mock company's newsletter.",
+			"work"  :   "",
+			"skills" : ["CSS", "HTML"],
+			"git"	: "https://github.com/ksullivan96/registration_form"
+		},
+		{
+			"title" : "Responsive Layout",
+			"img" : "img/portfolio/responsive.png",
+			"link": "http://creativegains.co/csstosass/",
+			"description" : "A fully responsive Layout that fits all different types of media.",
+			"work"  :   "I converted a .jpg Mockup into a fully functioning, responsive web page. After completing the web page I used Sass to complete the project.",
+			"skills" : ["CSS", "HTML", "Sass"],
+			"git"	: "https://github.com/ksullivan96/responsive_layout"
+    	},
+		{
+			"title" : "Accessibility Frog",
+			"img" : "img/portfolio/accessible.png",
+			"link" : "http://creativegains.co/refactoring/",
+			"description" : "Working to meet Accessibility Standards",
+			"work"  :   "Converted an existing web page into a fully accessible site for the purpose of meeting all accesibility standards.",
+			"skills" : ["CSS", "HTML"],
+			"git"	: "https://github.com/ksullivan96/Accessibility-Refactor"
+		},
+		{
+			"title" : "SVG site update",
+			"img" : "img/portfolio/svgupdate.png",
+			"link" : "http://creativegains.co/svg_update_v2/",
+			"description" : "Using SVGs to accentuate an existing Web Site",
+			"work"  :   "Removed all .png/.jpgs from the site and replaced them with .SVG format files. With the .SVGs in place and using in-line .SVGs, the images became animated and responsive. ",
+			"skills" : ["Adobe Illustrator", "XML", "CSS", "HTML"],
+			"git"	: "https://github.com/ksullivan96/Scalable-Responsive-site-update"
+		},
+		{
+			"title" : "Basic Profile Page",
+			"img" : "img/portfolio/profile.png",
+			"link": "http://creativegains.co/portfolio_profile/",
+			"description" : "The design of a basic Profile Page.",
+			"work"  :   "I converted a .jpg Mockup into a fully functioning, responsive web page. After completing the web page I used Sass to complete the project.",
+			"skills" : ["CSS", "HTML", "Sass"],
+			"git"	: "https://github.com/ksullivan96/portfolio_profile"
+		}
+	]
+}
+            
+         
+        
